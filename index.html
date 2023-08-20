@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatile" content="IE-edge" />
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0" />
+    <title>Treasure Hunt Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmkfcJ0ZADqmQC8nsq1wsYJWEbmQ4JyI4I3g&usqp=CAU" type="image/png">
+    <link rel="stylesheet" href="treasurehunt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <h1>Treasure Hunt Challenge!</h1>
+        <div class="image-container">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/30996/money-3221936-clipart-md.png" height="400px"/>
+        </div>
+        <h2>Game Rules!</h2>
+        <ul>
+            <li>
+                Click the boxes to reveal what's on the map
+            </li>
+            <li>
+                If you click on the skull, you lose
+            </li>
+            <li>
+                If you click on the crown, you win
+            </li>
+        </ul>
+        <div id="clicks">Clicks left: 3</div>
+        <br>
+            <table border="1px" class="box">
+                <tr>
+                    <td onclick="treasure(0)" id="0">?</td>
+                    <td onclick="treasure(1)" id="1">?</td>
+                    <td onclick="treasure(2)" id="2">?</td>
+                </tr>
+                <tr>
+                    <td onclick="treasure(3)" id="3">?</td>
+                    <td onclick="treasure(4)" id="4">?</td>
+                    <td onclick="treasure(5)" id="5">?</td>
+                </tr>
+                <tr>
+                    <td onclick="treasure(6)" id="6">?</td>
+                    <td onclick="treasure(7)" id="7">?</td>
+                    <td onclick="treasure(8)" id="8">?</td>
+                </tr>
+            </table>
+            <br>
+            <div class="image-container">
+            <button type="button" onclick="location.reload()" class="hover">Restart Game</button>
+            </div>
+        <footer href="">Roniel Overton, Sean Briski & Justin Pinkard</footer>
+        <script type="text/javascript" src="treasurehunt.js">
+        </script>
+    </body>
+</html>
+                   
+
+
+                   
+                   
+

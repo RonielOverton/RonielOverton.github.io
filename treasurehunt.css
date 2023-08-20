@@ -1,0 +1,60 @@
+body {
+    font-family: 'Calistoga', cursive;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/38/75/59/1000_F_238755961_GqRn6IAkWTT7yZuuUkvowONleNhVzQl5.jpg"); 
+    margin: auto;
+    text-align: center;
+    background-size: 100% auto;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;   
+}
+button {
+ padding: 10px;
+ background-color: green;
+ margin: auto;
+ border-radius: 10px;
+ border-color: black;
+ 
+}
+footer{
+    padding-top: 20px;
+}
+
+.hover{
+    cursor: pointer;
+}
+h1 {
+    height: 200px;
+    width: auto;
+}
+
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: translate(10px, 10px);
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+    border-radius: 5px;
+    
+}
+ul{
+    list-style: none;
+}
+
+
+
